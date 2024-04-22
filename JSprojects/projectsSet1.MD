@@ -13,6 +13,7 @@ const body = document.querySelector("body")
 
 buttons.forEach( function(button)  {
   console.log(button);
+  // event mouse click only used here
   button.addEventListener('click',function(event){
     console.log(event);
     console.log(event.target);
