@@ -5,7 +5,7 @@
 
 # solution code
 
-# project 1
+## project 1
 
 ``` javascript
 const buttons = document.querySelectorAll(".button")
@@ -36,7 +36,7 @@ buttons.forEach( function(button)  {
 
 ```
 
-# project 2
+## project 2
 
 ``` javascript
 const form = document.querySelector('form')
@@ -77,4 +77,28 @@ form.addEventListener('submit', function(event){
   }
   
 });
+```
+
+## project 3
+
+``` javascript
+const clock = document.getElementById('clock')
+//const clock1 = document.querySelector('#clock')
+
+let date = new Date()
+console.log(date.toLocaleTimeString());
+
+
+setInterval(function(){
+  let date = new Date()
+  // console.log(date.toLocaleTimeString());
+  clock.innerHTML = date.toLocaleTimeString();
+}, 1000);
+
+```
+
+## project 4
+
+``` javascript
+
 ```
